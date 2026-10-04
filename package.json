@@ -1,0 +1,8 @@
+{
+  "name": "sahaaynet-root",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "npm install --prefix frontend && npm run build --prefix frontend",
+    "start": "npm install -g serve && serve -s frontend/dist -l 8080"
+  }
+}
